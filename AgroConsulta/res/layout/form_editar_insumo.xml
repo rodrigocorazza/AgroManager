@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+  <TableRow>
+ 
+    <TextView 
+        android:id="@+id/text1" 
+        android:text="@string/Nome" /> 
+        
+        <EditText 
+            android:id="@+id/campoNome" 
+            android:width="240dp"
+            android:hint="@string/Nome" /> 
+            
+</TableRow> 
+
+<TableRow>
+ 
+    <TextView 
+        android:id="@+id/text2" 
+        android:text="@string/Quantidade" /> 
+       
+        <EditText 
+            android:id="@+id/campoQuantidade"
+            android:hint="@string/Quantidade" /> 
+            
+</TableRow> 
+
+<!-- <TableRow>  -->
+<!--     <TextView  -->
+<!--         android:id="@+id/text3"  -->
+<!--         android:text="@string/Idade"  -->
+<!--         android:textColor="#000000" />  -->
+        
+<!--         <EditText  -->
+<!--             android:id="@+id/campoIdade" -->
+<!--             android:hint="@string/Idade" />  -->
+            
+<!-- </TableRow>  -->
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent" >
+    
+    <ImageButton 
+        android:src="@drawable/cancelar" 
+        android:id="@+id/btCancelar" 
+        android:contentDescription="@string/Cancelar" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" /> 
+        
+    <ImageButton 
+        android:src="@drawable/salvar" 
+        android:id="@+id/btSalvar" 
+        android:contentDescription="@string/Salvar"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" /> 
+    
+    <ImageButton 
+        android:src="@drawable/excluir" 
+        android:id="@+id/btExcluir" 
+        android:contentDescription="@string/Excluir"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" /> 
+</LinearLayout> 
+
+</TableLayout>

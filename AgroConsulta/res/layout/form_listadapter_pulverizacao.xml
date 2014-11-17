@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"    >
+
+	 <LinearLayout 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+   		android:orientation="horizontal"  >
+		 
+		 <TextView
+	    	android:id="@+id/id"
+	    	android:layout_width="50sp"
+	    	android:layout_height="30dip" />
+	</LinearLayout>
+		 
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+		 
+		 <TextView
+	     	android:id="@+id/id_propriedaderural"
+	     	android:layout_width="190sp"
+	     	android:layout_height="30dip" />
+		 
+		 <TextView
+	     	android:id="@+id/raio"
+	     	android:layout_width="40sp"
+	     	android:layout_height="30dip"  />
+		 
+	</LinearLayout>
+	 
+	<LinearLayout 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+   		android:orientation="vertical"  >
+		
+	    <TextView
+	     	android:id="@+id/id_insumo"
+	     	android:layout_width="70sp"
+	     	android:layout_height="30dip" />
+		
+		<TextView
+	     	android:id="@+id/dataCriacao"
+	     	android:layout_width="70sp"
+	     	android:layout_height="30dip"  />
+	</LinearLayout>
+
+</LinearLayout>
+
+	 
+	 
+
+

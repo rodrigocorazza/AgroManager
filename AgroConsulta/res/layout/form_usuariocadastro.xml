@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Cadastro de Novo Usuário"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="70dp"
+        android:text="Nome: " />
+    
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtNome"
+        android:layout_alignLeft="@+id/edtUsuario"
+        android:layout_marginTop="30dp"
+        android:ems="10" />
+    
+    <TextView
+        android:id="@+id/txtUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtNome"
+        android:layout_below="@+id/txtNome"
+        android:layout_marginTop="30dp"
+        android:layout_toLeftOf="@+id/edtUsuario"
+        android:text="Usuário: " />
+
+    <EditText
+        android:id="@+id/edtUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtUsuario"
+        android:layout_alignRight="@+id/textView1"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+	
+    <TextView
+        android:id="@+id/txtSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtUsuario"
+        android:layout_below="@+id/txtUsuario"
+        android:layout_marginTop="31dp"
+        android:text="Senha: " />
+    
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtSenha"
+        android:layout_alignLeft="@+id/edtNovaSenha"
+        android:layout_marginTop="30dp"
+        android:ems="10" />
+    
+    
+    <TextView
+        android:id="@+id/txtNovaSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtSenha"
+        android:layout_below="@+id/txtSenha"
+        android:layout_marginTop="30dp"
+        android:text="Confirme a Senha: " />
+
+    <EditText
+        android:id="@+id/edtNovaSenha"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/txtNovaSenha"
+        android:layout_alignRight="@+id/edtUsuario"
+        android:layout_marginTop="30dp"
+        android:ems="10" />
+    
+    
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/edtNovaSenha"
+        android:layout_marginBottom="24dp"
+        android:text="Salvar" />
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnSalvar"
+        android:layout_alignBottom="@+id/btnSalvar"
+        android:layout_alignLeft="@+id/txtNovaSenha"
+        android:text="Voltar " />
+
+    
+
+</RelativeLayout>

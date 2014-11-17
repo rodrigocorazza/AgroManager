@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<Spinner
+	    android:id="@+id/spnPropriedadeRural"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/textView1" />
+
+	<Spinner
+	    android:id="@+id/spnInsumo"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/textView2" />
+
+	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:text="Selecione a propriedade rural:"
+	    android:textSize="20sp" />
+
+	<EditText
+	    android:id="@+id/edtRaio"
+	    android:layout_width="100dp"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/textView3"
+	    android:layout_marginLeft="16dp"
+	    android:layout_toRightOf="@+id/textView3"
+	    android:ems="10" />
+
+	<Button
+	    android:id="@+id/btnCancelar"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/btnIniciar"
+	    android:layout_alignBottom="@+id/btnIniciar"
+	    android:layout_alignRight="@+id/textView2"
+	    android:layout_marginRight="40dp"
+	    android:text="Cancelar" />
+
+	<Button
+	    android:id="@+id/btnIniciar"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignRight="@+id/textView4"
+	    android:layout_marginBottom="40dp"
+	    android:layout_toRightOf="@+id/btnCancelar"
+	    android:text="Iniciar" />
+
+	<TextView
+	    android:id="@+id/textView2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/spnPropriedadeRural"
+	    android:text="Selecione o Insumo:"
+	    android:textSize="20sp" />
+
+	<TextView
+	    android:id="@+id/textView3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/btnCancelar"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginBottom="84dp"
+	    android:text="Definir Raio:"
+	    android:textSize="20sp" />
+
+	<TextView
+	    android:id="@+id/textView4"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/edtRaio"
+	    android:layout_toRightOf="@+id/edtRaio"
+	    android:text="metros"
+	    android:textSize="20dp" />
+    
+</RelativeLayout>

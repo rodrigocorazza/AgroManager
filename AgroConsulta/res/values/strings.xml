@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Agro Manager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Tamanho">Tamanho (HA):</string>
+    <string name="Quantidade">Quantidade:</string>
+    <string name="Nome">Nome:</string>
+    <string name="Cultura">Cultura:</string>
+    <string name="Buscar">Buscar</string>
+    <string name="PragaTipo">Tipo de Praga:</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="Salvar">Salvar</string>
+    <string name="Excluir">Excluir</string>
+    <string name="txtMenu">Cadastros</string>
+    <string name="sair">Sair</string>
+    <string name="bt1">Propriedade Rural</string>
+    <string name="bt2">Insumos</string>
+    <string name="bt3">Pragas</string>
+    <string name="bt4">Pulverização</string>
+    <string name="LinhaNome">Nome:</string>
+    <string name="LinhaTamanho">Tamanho:</string>
+    <string name="LinhaCultura">Cultura:</string>
+    <string name="title_activity_pulverizacao_mapa_gps">PulverizacaoMapaGPSActivity</string>
+
+</resources>

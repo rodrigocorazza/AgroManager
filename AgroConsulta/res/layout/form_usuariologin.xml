@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/edtUsuario"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="225dp"
+        android:layout_toRightOf="@+id/txtUsuario"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/txtUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edtUsuario"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="34dp"
+        android:text="Usuário: " />
+
+    <TextView
+        android:id="@+id/txtSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtUsuario"
+        android:layout_below="@+id/txtUsuario"
+        android:layout_marginTop="25dp"
+        android:text="Senha: " />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtSenha"
+        android:layout_alignLeft="@+id/edtUsuario"
+        android:layout_alignRight="@+id/edtUsuario"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/edtSenha"
+        android:layout_marginBottom="20dp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btSair"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btLogin"
+        android:layout_alignLeft="@+id/txtSenha"
+        android:layout_marginLeft="16dp"
+        android:text="Sair" />
+
+    <Button
+        android:id="@+id/btCadastrar"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edtSenha"
+        android:layout_marginTop="14dp"
+        android:text="Cadastrar"
+        android:textSize="8dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btCadastrar"
+        android:layout_alignBottom="@+id/btCadastrar"
+        android:layout_toLeftOf="@+id/btCadastrar"
+        android:textSize="10dp"
+        android:text="Cadastrar novo usuario: " />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="165dp"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logotipo_agro_manager" />
+
+</RelativeLayout>
